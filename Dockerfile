@@ -1,7 +1,7 @@
 FROM python:3.7.3-stretch
 
 # create working directory
-WORKDIR /app
+WORKD /app
 
 # copy source code to working directory
 COPY . app.py /app/
